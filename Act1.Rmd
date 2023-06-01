@@ -1,0 +1,27 @@
+---
+title: "Act1"
+#output: html_document
+date: "2023-05-23"
+output: bookdown::word_document2
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, fig.align ="center")
+
+```
+
+## Activity 1 Plots
+
+You can also embed plots, for example:
+
+```{r Figure, fig.height = 7,  echo=TRUE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+Write data from R into a CSV file
+
+```{r cars}
+write.csv(cars, file = 'cars1.csv')
+```
