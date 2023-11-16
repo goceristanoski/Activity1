@@ -36,4 +36,4 @@ write.csv(cars, file = 'Data/cars.csv')
 ```
 
 
-here i am writing some extra stuff
+This is the text of Module 4 weekly session.
