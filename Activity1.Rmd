@@ -35,3 +35,13 @@ In this section, I will save a copy of the cars dataset in a cvs file in the Dat
 write.csv(cars, file = 'Data/cars.csv')
 summary(cars)
 ```
+
+```{r plotSections}
+library(ggplot2)
+x = seq(1:100) 
+y = rnorm(100) 
+dat = data.frame(x, y) 
+ggplot(dat, aes(x = x, y = y)) + 
+    geom_line()
+```
+
