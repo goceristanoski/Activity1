@@ -7,3 +7,5 @@ this is a new added text for commit 3
 This is a text I am adding so I can do the pull functions
 
 This is after the conflict resolution !!!
+
+I am writing this text from goceristan account, the forked repository for Activity1
