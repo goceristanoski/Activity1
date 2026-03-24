@@ -45,3 +45,7 @@ dat = data.frame(x, y)
 ggplot(dat, aes(x = x, y = y)) + 
     geom_line()
 ```
+
+This is text from the shared repo , to create conflict and initiate a pull request.
+
+I have kept everything that was different from both files
