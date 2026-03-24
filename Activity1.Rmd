@@ -35,3 +35,13 @@ summary(cars)
 ```
 I am now in the Feature branch.
 
+
+
+```{r plot1}
+library(ggplot2)
+x=seq(1:100) 
+y = rnorm(100) 
+dat = data.frame(x, y) 
+ggplot(dat, aes(x = x, y = y)) + 
+    geom_line()
+```
