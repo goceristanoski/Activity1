@@ -30,3 +30,4 @@ This will be edits to make commit 4, via Git tab in R studio
 write.csv(cars, file = 'Data/cars.csv')
 ```
 
+This is text from main branch, Acticity 1 Rmd file
